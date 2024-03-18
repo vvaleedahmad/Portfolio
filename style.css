@@ -13,8 +13,8 @@
 *{
     scroll-behavior: smooth;
 }
-body{
-    overflow-x: hidden;
+div{
+   overflow: hidden;
 }
 .nav-bg{
     background-image: linear-gradient(to right,rgb(26, 15, 78) 3%,rgb(81, 26, 13) 40%,rgb(55, 4, 55) 90%);
@@ -198,10 +198,10 @@ body{
 .profile-image {
     position: relative;
     width: 350px;
-    height: 500px;
+    height:500px;
     margin-bottom: 20px;
     margin-left: 12px;
-    margin-top: -30px;
+    margin-top: 0px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -252,12 +252,15 @@ body{
 
 .icon1,
 .icon2 {
-    display: inline-flex;
     position: relative;
-    transform: translateX(750px) translateY(-30px);
+    overflow: visible;
     background-color: transparent;
 }
-
+.icons{
+    display: flex;
+    overflow: visible;
+    justify-content: center;
+}
 .icon1 img {
     width: 49px;
     height: auto;
@@ -287,8 +290,8 @@ body{
     transition: opacity 0.3s, visibility 0.3s;
     font-size: x-small;
     line-height: 7px;
-    width: 90px;
-    top: -75%;
+    width: max-content;
+    top: -80%;
     left: -45%;
 }
 
@@ -305,8 +308,8 @@ body{
     transition: opacity 0.3s, visibility 0.3s;
     font-size: x-small;
     line-height: 7px;
-    width: 150px;
-    top: -70%;
+    width: max-content;
+    top: -75%;
     right: -55%;
 }
 
@@ -357,20 +360,20 @@ body{
         
     }
     .icon1,.icon2{
-        transform: translate(80px,40px); 
+        margin-top: 60px;
     }
     .profile-image{
         position: relative;
         width: 350px;
         height: 480px;
-        transform: translate(0px); 
-        margin-top: -100px;
+        margin-top: 0px;
     }
     .icons{
         margin-left: 40px;
     }
     .introme{
         position: relative;
+        margin-bottom: -90px;
     }
     .intro{
         position: relative;
@@ -398,17 +401,14 @@ body{
         margin-left: 20px;
     }
     .icon1,.icon2{
-        position: relative;
-        transform: translate(190px,40px); 
+        position: relative; 
     }
-    .icons{
-        margin-left: 250px;
-    }
+  
     .profile-image{
         position: relative;
         width: 350px;
         height: 480px;
-        transform: translate(10px); 
+        margin-top: 0px;
     }
     .intro{
         position: relative;
