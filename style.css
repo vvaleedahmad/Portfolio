@@ -6,7 +6,7 @@
     position: absolute;
     -webkit-background-clip: text;
     -webkit-text-stroke: 2px;
-    padding: 25px;
+    padding: 15px;
     background-image: linear-gradient(45deg, #4F46E5, #EECE1A, #3EAAAC);
     animation: textGradientShift 5s infinite linear;
 }
@@ -352,6 +352,9 @@ div{
        transform: translateY(-120px); 
        object-fit: cover;
        margin-bottom: -120px;
+    }
+    .typing-text{
+        margin-top: 55px;
     }
     .lines{
         transform: translate(-10px,0px);
