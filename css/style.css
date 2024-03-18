@@ -51,7 +51,7 @@ body{
     object-fit: cover;
 }
 #education {
-    background-image: url('/img/synth.jpg');
+    background-image: url('img/synth.jpg');
     background-position: center;
     background-size: cover;
     padding-top: 80px;
@@ -116,7 +116,7 @@ body{
 #aboutme {
     padding-top: 68px;
     padding-bottom: 60px;
-    background-image: url('/img/wall2.jpg');
+    background-image: url('img/wall2.jpg');
     background-size: cover;
     background-position: center;
 }
