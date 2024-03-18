@@ -12,12 +12,10 @@
 }
 *{
     scroll-behavior: smooth;
-    scrollbar-width: none;
 }
 body{
     overflow-x: hidden;
 }
-
 .nav-bg{
     background-image: linear-gradient(to right,rgb(26, 15, 78) 3%,rgb(81, 26, 13) 40%,rgb(55, 4, 55) 90%);
 }
