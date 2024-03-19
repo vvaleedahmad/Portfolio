@@ -379,7 +379,7 @@ div {
         transform: translate(-10px, 0px);
         font-size: 35px;
         font-weight: 600;
-
+        margin-left: 60px;
     }
 
     .icon1,
@@ -426,13 +426,6 @@ div {
         margin-bottom: -50px;
     }
 
-    .lines {
-        font-size: 35px;
-        font-weight: 600;
-        transform: translate(10px);
-        margin-left: 20px;
-    }
-
     .icon1,
     .icon2 {
         position: relative;
@@ -457,5 +450,25 @@ div {
         position: relative;
         transform: translate(-100px, 35px);
         margin-left: 100px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1240px) {
+    .lines {
+        font-size: 35px;
+        font-weight: 600;
+        transform: translate(120px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 1240px) and (max-width:1500px) {
+    .lines {
+        font-size: 35px;
+        font-weight: 600;
+        transform: translate(10px);
+        margin-left: 30px;
+        margin-right: 20px;
     }
 }
